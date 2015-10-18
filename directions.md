@@ -50,8 +50,13 @@ _NOTE: for each command, you should explain:_
   * [10%]  
 * collaboration  
   * fork & `clone`, pull requests and `pull`  
-  * [10%]
+  * [10%]  
 
 ---
 ### A note about plagiarism
 You should be typing _every single word_.  It is ok to refer to your notes, the slides, the internet, and even your classmates for help.  However, **intellectual property is to be regarded highly in this class**.  You should be explaining everything in your own words.  If you are copying/pasting, you are not learning.
+
+### Final thoughts
+The best way to learn something is through repeated practice.  
+Feel free to **practice** all of these concepts on your own to understand them better.  
+Don't forget to [Google](http://www.google.com) your error messages if you get stuck!
