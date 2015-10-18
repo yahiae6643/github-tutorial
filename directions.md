@@ -11,7 +11,7 @@
     a. `README.md` is where you will find a template to use as a starting point for your tutorial.  This is where you'll do your work.  
     b. `directions.md` is where you will find these directions.
 3. As you edit, make a commit every once in a while.  Don't forget to push!  
-4. When you are finished, submit the link to your remote repository (see class website).  
+4. When you are finished, submit your remote repository URL (see class website).  
 
 ## _Topics_
 
