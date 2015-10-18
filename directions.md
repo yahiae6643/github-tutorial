@@ -25,7 +25,7 @@
   * `init`, your first `add` & `commit`, new repo on github, remote
   * [20%]
 * ongoing workflow & commands
-  * status, add, commit, push, clone
+  * status, add, commit, push
   * [40%]
 
 _NOTE: for each command, you should explain:_
@@ -46,10 +46,10 @@ _NOTE: for each command, you should explain:_
 
 * error handling
   * what to do if you did `git init` in the wrong directory  
-  * how to completely remove a repository (local + remote)  
+  * how to completely remove a repository (local & remote)  
   * [10%]  
 * collaboration  
-  * fork, pull requests and `pull`  
+  * fork & clone, pull requests and `pull`  
   * [10%]
 
 ---
