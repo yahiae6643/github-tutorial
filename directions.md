@@ -59,4 +59,4 @@ You should be typing _every single word_.  It is ok to refer to your notes, the 
 ### Final thoughts
 The best way to learn something is through repeated practice.  
 Feel free to **practice** all of these concepts on your own to understand them better.  
-Don't forget to [Google](http://www.google.com) your error messages if you get stuck!
+Don't forget to use [Google](http://www.google.com) if you get stuck!
