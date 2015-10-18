@@ -35,9 +35,9 @@ _NOTE: for each command, you should explain:_
 
 ## _Other Requirements_
 
-* use MD syntax (headings, bold, italics, etc)
+* use MD syntax _(headings, bold, italics, etc)_
   * [5%]
-* use list(s) _(ordered or unordered)_
+* use list(s) _(ordered and/or unordered)_
   * [5%]
 * use code snippets _(single and/or multi-line)_
   * [5%]
@@ -45,11 +45,11 @@ _NOTE: for each command, you should explain:_
 ### _Extra Credit_
 
 * error handling
-  * what to do if you did `git init` in the wrong directory  
+  * what to do if you did `init` in the wrong directory  
   * how to completely remove a repository (local & remote)  
   * [10%]  
 * collaboration  
-  * fork & clone, pull requests and `pull`  
+  * fork & `clone`, pull requests and `pull`  
   * [10%]
 
 ---
