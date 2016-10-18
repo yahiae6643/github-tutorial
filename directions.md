@@ -18,7 +18,7 @@
   * explain what each is, and the difference between the two
   * [10%]
 * one-time setup
-  * github account, SSH key, `git config` (user.name & user.email)
+  * making a github account, SSH key
   * [15%]
 * repo setup
   * `init`, your first `add` & `commit`, new repo on github, remote
@@ -46,6 +46,7 @@ _NOTE: for each command, you should explain:_
 * error handling
   * what to do if you did `init` in the wrong directory  
   * how to completely remove a repository (local & remote)  
+  * etc
   * [10%]  
 * collaboration  
   * fork & `clone`, pull requests and `pull`  
