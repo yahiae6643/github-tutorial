@@ -34,7 +34,7 @@ _NOTE: for each command, you should explain:_
 
 ## _Other Requirements_
 
-* use MD syntax _(headings, bold, italics, etc)_
+* use MD syntax _(headings, bold, italics,_ `code` _, etc)_
   * [5%]
 * use list(s) _(ordered and/or unordered)_
   * [5%]
@@ -51,6 +51,8 @@ _NOTE: for each command, you should explain:_
 * collaboration  
   * fork & `clone`, pull requests and `pull`  
   * [10%]  
+* screenshots
+  * [5%]
 
 ---
 ### A note about plagiarism
