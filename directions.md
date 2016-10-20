@@ -34,7 +34,7 @@ _NOTE: for each command, you should explain:_
 
 ## _Other Requirements_
 
-* use MD syntax _(headings, bold, italics,, etc)_
+* use MD syntax _(headings, bold, italics, etc)_
   * [5%]
 * use list(s) _(ordered and/or unordered)_
   * [5%]
