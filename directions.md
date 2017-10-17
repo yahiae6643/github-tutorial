@@ -25,7 +25,10 @@
   * [20%]
 * ongoing workflow & commands
   * status, add, commit, push
-  * [40%]
+  * [20%]
+* rollback
+  * undo edit/add/commit/push
+  * [20%]
 
 _NOTE: for each command, you should explain:_
 
@@ -45,7 +48,7 @@ _NOTE: for each command, you should explain:_
 
 * error handling
   * what to do if you did `init` in the wrong directory  
-  * how to completely remove a repository (local & remote)  
+  * how to completely remove a repository (local & remote)
   * etc
   * [10%]  
 * collaboration  
