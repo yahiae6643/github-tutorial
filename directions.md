@@ -26,7 +26,7 @@
 * ongoing workflow & commands
   * status, add, commit, push
   * [20%]
-* rollback
+* rolling back changes
   * undo edit/add/commit/push
   * [20%]
 
