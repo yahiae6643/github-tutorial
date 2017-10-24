@@ -61,6 +61,14 @@ _NOTE: for each command, you should explain:_
 ### A note about plagiarism
 You should be typing _every single word_.  It is ok to refer to your notes, the slides, the internet, and even your classmates for help.  However, **intellectual property is to be regarded highly in this class**.  You should be explaining everything in your own words.  If you are copying/pasting, you are not learning.
 
+### Assumptions
+Should you assume your reader is a student at HSTAT?  Should you assume they already have a cloud9 account?  It is _up to you_ to decide what assumptions you will make.  But perhaps the best strategy is to speak to all audiences with hints for HSTAT/c9  
+i.e. making a Github account:
+> Choose a username (if you are a student at HSTAT, use your HSTAT email, but without the `@hstat.org`).
+
+or SSH key:
+> Get the SSH key from your IDE (if you're using cloud9, here's how to find it...)
+
 ### Final thoughts
 The best way to learn something is through repeated practice.  
 Feel free to **practice** all of these concepts on your own to understand them better.  
