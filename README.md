@@ -68,8 +68,11 @@ Github is a website used to post your projects and their previous versions for e
 
 
 ###### To start...
-**NOTE**: A repository is a folder where you save both your files and file changes  
-**NOTE #2**: In c9, you are executing commands inside a blue tab called the `bash`**,** or terminal to be specific
+**NOTE**: A repository is a folder where you save both your files and file changes permanantly as previous versions of the project (until further modifications)
+**NOTE #2**: In c9, you are executing commands inside a blue tab called the `bash`**,** or terminal to be specific  
+
+[PICTURE]
+
 1. Within the front page of github, press the button "New repository"
 2. The page you are taken to will ask for a title for your new repository (_description optional_). Type in your prefered title and press "Create repository"
 3. The repository will include two lines of git commands  
@@ -79,16 +82,47 @@ git remote add origin git@github.com:yahiae6643/FAKE-REPO.git
 git push -u origin master
 ```
 
-4. Access your c9 workspace and create a local repository (repository located in your current workspace)
-    * To create a new local repository, type in `mkdir * Any file name * ` *,* which would create a new folder within your root folder (workspace)
-    * Go inside your new repository by typing `cd *Name of repository*`**,** which changes you from your old work path to the new work path (To the new folder)
-    * To turn the repository into a folder that runs on _Git_, type in `git init`**.**
+4. Access your c9 workspace and create a directory _(directory is another name for folder)_ 
+    * To create a new directory, type in `mkdir * Any file name * ` *,* which would create a new directory within your current location (the working directory)
+    * Go inside your new directory by typing `cd *Name of repository*`**,** which changes you from your old location to a new location of your choice (To the new directory)
+    * To turn the directory into a folder that runs on _Git_, type in `git init`**.**
     * Finally, paste each command from the remote repository (the repository in github) into the c9 bash 
-> You finally have the ability to add files and send files from the local repository to the remote repository! I'll explain the commands to use in **Workflow & Commands**
-    
-    
+> Your local repository (the repository that is currently within your machine) is now linked to your remote repository, meaning you have the ability to send your changes from your local to your remote 
+
+5. To start making a file and saving it to your local repository, type in `touch *file name*`**.** This creates a file with a name of your choice in your working directory 
+6. Access your file by typing in `c9 *file name`, which brings you to your file's text editor. Edit your file any way you like and type `git add *file name*`
+    * You can also `git add` a file that is completely blank 
+7. Finally, type in `git commit -m *message*`**.** This permanently saves the file within the directory into your local repository.
+> The `-m` within the git command means message. The message is usually the word or sentence in front of `-m`, so it necessary to add a message in order for the command to  properly execute
+8. Finally, type in `git push`**,** which sends your changes in your local repository to the remote repository it is linked to.
+9. Go to your remote repository in github and see your files!
+
 ---
 ## Workflow & Commands
+###### The workflow involves.. 
+* _making changes to a file or deleting it in your directory_ 
+* _temporarily saving the changes of your file_ 
+* _permanently saving the changes as previous versions of the repository_
+
+[PICTURE HERE]
+
+NOTE: Commands start with `git` since they are apart of git's system    
+
+`git init: To initalize (or to start) git within your new or recently modified repository (folder for short)`
+> Without initalizing git in your repository, you won't have the ability to execute other git commands in order to save files
+
+
+`git add *file name*, *file name #2*, etc: Places one or more of your files into the staging area / stages the files to the staging area`
+> The staging area is a area where you temporary save your changes until they are ready to be permanantly saved as a previous version of the repository
+
+`git status: Shows which files are staged, not staged, and are not tracked by git `
+* `(not tracked means the files' changes aren't being monitored by git)`
+> This is very useful to check if you have any files you want to stage and track or remove from the staging area
+
+`git commit -m *message*: Saves files from the staging area permanently into your repository as a previous version of the project / to commit a file into the repository` 
+> The most recent saved changes in your repository (or most recent commit) is called the `HEAD` commit  
+> `-m` assigns any text after it as a message for the new commit, which can help you distinguish and pinpoint your commits
+
 
 
 
