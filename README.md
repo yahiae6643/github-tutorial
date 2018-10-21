@@ -103,48 +103,25 @@ git push -u origin master
 * _making changes to a file or deleting it in your directory_ 
 * _temporarily saving the changes of your file_ 
 * _permanently saving the changes as previous versions of the repository_
+* _sending the changes from your local repository to your remote repository_
+
+NOTE: Commands start with `git` since they are apart of git's system   
 
 [PICTURE HERE]
 
-NOTE: Commands start with `git` since they are apart of git's system    
-
-`git init: To initalize (or to start) git within your new or recently modified repository (folder for short)`
-> Without initalizing git in your repository, you won't have the ability to execute other git commands in order to save files
-
-
-`git add *file name*, *file name #2*, etc: Places one or more of your files into the staging area / stages the files to the staging area`  
-`git add *.*: Places all files into your staging area that are modified or new but rejects all files that are deleted`  
-`git add *--all*: Places all files into your staging area that are new, modified, AND deleted`
-> When a file is deleted, _Git_ keeps track of the action. Which means that you can consider the action a change and add it into the staging area  
-> The staging area is a area where you temporary save your changes until they are ready to be permanantly saved as a previous version of the repository
-
-`git diff: Displays the difference between your current file and the latest (HEAD) version of your file within the repository`
-
-`git status: Shows which files are staged, not staged, and are not tracked by git `
-* `(not tracked means the files' changes aren't being monitored by git)`
-> This is very useful to check if you have any files you want to stage and track or remove from the staging area
-
-`git commit -m *message*: Saves files from the staging area permanently into your repository as a previous version of the project / to commit a file into the repository` 
-> The most recent saved changes in your repository (or most recent commit) is called the `HEAD` commit  
-> `-m` assigns any text after it as a message for the new commit, which can help you distinguish and pinpoint your commits
-
-`git log: Shows all previous versions / commits located in the repository of your project`
-> These commits include messages you made, the time it was made, the name of who made it, and a 40 character code called a `SHA`. The `SHA` can be used to distinguish commits between each other, but can be also used in removing a commit or reverting back to a commit you desire
-
-`git remote add origin url: Establishes the connection between your local repository and your remote repository in Github`
->`remote` refers to setting up the connection b/w your local repository and the repository within github (the remote repository)   
->`add` refers to your remote repository and its commits  
->`origin` is a nickname for your remote repository  
->`url` means the url of your remote repository, the location of the remote repository (SHOULD BE SSH LINK)
-
-`git push -u origin master: Transfers your local commits to the remote repository`
-> `push` means sending your commits from your local repository into your remote repository  
-> `-u` means upstream. This will make the terminal remember to always send the local commits to a certain branch in your remote repository  
-> `origin` refers back to the nickname of the remote repository  
-> `master` refers to the branch in the remote repository that should contain your local commits 
-
-`git push: Just like "git push -u origin master," the command sends your local commits from your local repository to your remote repository in github. HOWEVER, it now has the knowledge on which branch in your remote repository to push the commits to.`  
-> This command is used soon after using `git push -u origin master`
+| Commands  | Format | Use | Pointers |
+| --- | --- | --- | --- |
+|  init | `git init`  | `git init: To initalize (or to start) git within your new or recently modified directory`| Without initalizing git in your directory, you won't have the ability to execute other git commands in order to save files within your local repository|
+| add  | `git add *file name*, *file name #2*, etc` | `Places one or more of your files into the staging area. It "stages" the files to the staging area`  | The **staging area** is a area where you temporary save your changes until they are ready to be permanantly saved as a previous version of the repository|
+|  add . |`git add *.*`| `Places all files into your staging area that are modified or new but rejects all files that are deleted` | **N/A** |
+| add --all | `git add *--all*` | `Places all files into your staging area that are new, modified, AND deleted` | When a file is deleted, Git keeps track of the change. This change can be added into the staging area and be considered a previous version of your project when placed in your repository   |
+|  diff | `git diff`  | `Displays the difference between your current file and the latest (HEAD) version of your file within the repository`| **N/A**|
+|  status | `git status`  | `Shows which files are staged, not staged, and are not tracked by git `| "not tracked" means the files' changes aren't being monitored by git| 
+| commit | `git commit -m *message*` | `Saves files from the staging area permanently into your repository as a previous version of the project. It "commits" a file into the local repository`| The most recent saved changes in your repository (or most recent commit) is called the `HEAD` commit. Also, the `-m` within the command assigns any text after it as a message for the new commit, which can help you distinguish and pinpoint your commits  |
+|  log | `git log`  | `Shows all previous versions. Basically, the commits are located in the repository of your project`| These commits include messages you made, the time it was made, the name of who made it, and a 40 character code called a `SHA`. The `SHA` can be used to distinguish commits between each other, but can be also used in removing a commit or reverting back to a commit you desire|
+| remote | `git remote add origin *URL*`  | `Establishes the connection between your local repository and your remote repository in Github`| `remote` refers to setting up the connection b/w your local repository and the repository within github (the remote repository). `add` refers to your remote repository and its commits. `origin` is a nickname for your remote repository. `url` means the url of your remote repository, the location of the remote repository (SHOULD BE SSH LINK) |
+| push -u | `git push -u origin master` | `Transfers your local commits to the remote repository`| `push` means sending your commits from your local repository into your remote repository. `-u` means upstream. This will make the terminal remember to always send the local commits to a certain branch in your remote repository. `origin` refers back to the nickname of the remote repository. `master` refers to the branch in the remote repository that should contain your local commits|
+|  push | `git push`  | `Just like "git push -u origin master," the command sends your local commits from your local repository to your remote repository in github. HOWEVER, it now has the knowledge on which branch in your remote repository to push the commits to`| This command is used soon after using `git push -u origin master`|
 
 ---
 ## Rolling Back Changes
