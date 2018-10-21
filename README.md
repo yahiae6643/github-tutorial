@@ -1,4 +1,4 @@
-<!-- 1/4 not completed yet -->
+<!-- ADD CLOUD9 LINK -->
 
 # GitHub Tutorial   
 _by Yahia Elhag_
@@ -21,6 +21,8 @@ Github is a website used to post your projects and their previous versions for e
 ## Initial Setup
 ###### Creating and setting up a github account is pretty straightforward, lets begin!
 
+NOTE: Cloud9 link is [c9.io](c9.io)
+
 **Step One**: Locate github through the use of google or typing in the url of the website `https://github.com/` within the upper search bar of your browser. Here is the website: [_Github_](https://github.com/)  
 * You have found the website successfully if you reached a site that looks like this:
 
@@ -30,8 +32,7 @@ Github is a website used to post your projects and their previous versions for e
 
 [PICTURE HERE]
 
-> These are the requirements in order to create a github account, so start typing!
-* Soon after fulfilling those requirements, your account will be unverified as a user (you would need to access your email to verify it) and you will be given two plans, **Free** and **Developer**. 
+* Soon after creating your account, it will be unverified as a user (you would need to access your email to verify it) and you will be given two plans, **Free** and **Developer**. 
 
 [PICTURE HERE]
 
@@ -78,7 +79,7 @@ Github is a website used to post your projects and their previous versions for e
 git remote add origin git@github.com:yahiae6643/FAKE-REPO.git
 git push -u origin master
 ```
-
+4. Create a workspace by pressing **Create a New Workspace.** Give it a name (description is optional) and choose **Blank** as its template
 4. Access your c9 workspace and create a directory _(directory is another name for folder)_ 
     * To create a new directory, type in `mkdir * Any file name * ` *,* which would create a new directory within your current location (the working directory)
     * Go inside your new directory by typing `cd *Name of repository*`**,** which changes you from your old location to a new location of your choice (To the new directory)
@@ -87,7 +88,7 @@ git push -u origin master
 > Your local repository (the repository that is currently within your machine) is now linked to your remote repository, meaning you have the ability to send your changes from your local to your remote 
 
 5. To start making a file and saving it to your local repository, type in `touch *file name*`**.** This creates a file with a name of your choice in your working directory 
-6. Access your file by typing in `c9 *file name`, which brings you to your file's text editor. Edit your file any way you like and type `git add *file name*`
+6. Access your file by typing in `c9 *file name*`, which brings you to your file's text editor. Edit your file any way you like and type `git add *file name*`
     * You can also `git add` a file that is completely blank 
 7. Finally, type in `git commit -m *message*`**.** This permanently saves the file within the directory into your local repository.
 > The `-m` within the git command means message. The message is usually the word or sentence in front of `-m`, so it necessary to add a message in order for the command to  properly execute
@@ -104,9 +105,7 @@ git push -u origin master
 
 NOTE: Commands start with `git` since they are apart of git's system   
 
-[PICTURE HERE]
-
-| Commands  | Format | Use | Pointers |
+| Git Commands  | Format | Use | Pointers |
 | --- | --- | --- | --- |
 |  init | `git init`  | `git init: To initalize (or to start) git within your new or recently modified directory`| Without initalizing git in your directory, you won't have the ability to execute other git commands in order to save files within your local repository.|
 | add  | `git add *file name*, *file name #2*, etc` | `Places one or more of your files into the staging area. It "stages" the files to the staging area`  | The **staging area** is a area where you temporary save your changes until they are ready to be permanantly saved as a previous version of the repository. |
