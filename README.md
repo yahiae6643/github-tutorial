@@ -23,7 +23,7 @@ Github is a website used to post your projects and their previous versions for e
 
 NOTE: Cloud9 link is [c9.io](c9.io)
 
-**Step One**: Locate github through the use of google or typing in the url of the website `https://github.com/` within the upper search bar of your browser. Here is the website: [_Github_](https://github.com/)  
+**Step One**: Go to `https://github.com/`. Here is the website: [_Github_](https://github.com/)  
 * You have found the website successfully if you reached a site that looks like this:
 
 [PICTURE HERE]
@@ -41,15 +41,11 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 * You will then be given to choose what projects you want to see based on your interests
     * It isn't very important, so you have the ability to skip it
 
-[PICTURE HERE]
-
 * **You have successfully created an account, but you need to connect it to your cloud9 account (IF YOU HAVE ONE) to create and send your projects**
     
 ###### The process of connecting your github account to cloud9 is easier, so lets start!
 
 **Step One**: Access the main page of cloud9 and log in with your github account **(If you don't have a c9 account, make one)**.
-
-[PICTURE HERE]
 
 **Step Two**: Press the _gear icon_ on the top right of the screen for a list of settings and press **_SSH Keys_**
 >SSH Keys (**S**ecure **S**ocket S**h**ell) is a network protocol that gives you access to a remote area, such as _Github_, from another area without typing your password and username. Without a SSH Key being linked between your github and cloud9, you won't have the ability to send and take projects from your c9 to github without typing your password and username, which is really inefficient  
@@ -104,6 +100,7 @@ git push -u origin master
 * _sending the changes from your local repository to your remote repository_
 
 NOTE: Commands start with `git` since they are apart of git's system   
+NOTE #2: Working directory means the directory you are currently located in
 
 | Git Commands  | Format | Use | Pointers |
 | --- | --- | --- | --- |
@@ -119,10 +116,21 @@ NOTE: Commands start with `git` since they are apart of git's system
 | push -u | `git push -u origin master` | `Transfers your local commits to the remote repository`| `push` means sending your commits from your local repository into your remote repository. `-u` means upstream. This will make the terminal remember to always send the local commits to a certain branch in your remote repository. `origin` refers back to the nickname of the remote repository. `master` refers to the branch in the remote repository that should contain your local commits|
 |  push | `git push`  | `Just like "git push -u origin master," the command sends your local commits from your local repository to your remote repository in github. HOWEVER, it now has the knowledge on which branch in your remote repository to push the commits to`| This command is used soon after using `git push -u origin master`|  
 
+| Essential Command Line Add-Ons | Format | Use | 
+| --- | --- | --- |
+|`cd`|`cd *directory_name*`| `Moves you from one directory to another` |
+|`pwd`|`pwd`| `Prints your current work path. e.g: Im located in yahiaelhag:~/workspace/github-tutorial` |
+|`rm`|`rm *file_name*`| `Removes a file from a directory. The files usually have extensions like .txt or .png` |
+|`rmdir`|`rmdir *directory_name*`| `Removes a empty directory (A folder with no content inside)` |
+|`rm -rf`|`rm -rf *file_name or directory_name*`| `Removes a directory or file with force until the container and the content inside is fully deleted` |
+|`mv (VERSION ONE)`|`mv *file_name or directory_name* *new file_name or new directory_name`| `Renames or Assigns a directory or file a new name of your choice` |
+|`mv (VERSION TWO)`|`mv *file_name or directory_name* *EXISTING directory_name`| `Moves a directory or file into a existing directory (A folder that is in located within your work directory or parent directory (The folder that contains all other folders. THE PARENT IS NEVER ~)` |
+|`touch`|`touch *file_name.extension*`| `Creates a new file with a name and extension (e.g: .txt, .png) of your choice. Extensions are optional. ` |
 **EXTRA TIPS TO FOLLOW:**  
 * Never use `git init` in the root directory (`EXAMPLE_USERNAME:~ `)**.** This would cause many problems if you continue your workflow
     * To fix this problem, type in `rm -rf .git` within the root directory. This will remove the source folder that helps initalize _Git_ in the directory, which will uninitalize the directory from _Git_
 * Use `git status` oftenly, since the command can be used freely without problem and it can help you choose which file changes are necessary to prepare for commiting
+
  
  
 
