@@ -6,12 +6,13 @@ _by Yahia Elhag_
 ---
 ## Git vs. GitHub
 ![GIT](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/Git-Icon-1788C.png)
-
+###### `Image source: https://git-scm.com/downloads/logos` 
 **_Git_** is defined as the system which is primarily used to give the user control of his versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
 > You can refer to your previous changes easily if you have a problem with your current project or want to use previous code in your project in order to improve it.  
 > You can also remove these changes if you believe they are not needed in your history.  
   
-![GITHUB]
+![GITHUB](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/GitHub-Mark.png)
+###### `Image source: https://github.com/logos` 
   
 Github is a website used to post your projects and their previous versions for everyone to see. Since it is based on _Git_ (**Git** in **Git**hub), you can refer back to your projects for the sake of improvement, removal, or fixing errors with your current file. However, the main difference between the two is that it is also used to **easily collaborate with one or more users on one or multiple projects**.
 > Users go through a very short and easy process in order to collaborate with others, which would be taught later in the tutorial!  
@@ -49,12 +50,13 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 **Step Two**: Press the _gear icon_ on the top right of the screen for a list of settings and press **_SSH Keys_**
 >SSH Keys (**S**ecure **S**ocket S**h**ell) is a network protocol that gives you access to a remote area, such as _Github_, from another area without typing your password and username. Without a SSH Key being linked between your github and cloud9, you won't have the ability to send and take projects from your c9 to github without typing your password and username, which is really inefficient  
 
-[PICTURE HERE]
-
 **Step Three**: Copy the private git SSH repository
+
+![c9 SSH](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/c9.png)
 
 **Step Four**: Go to Github and access your settings on top right corner
     * Press _SSH and GPG keys_ and create a new SSH key, which brings you to two text boxes. Paste your SSH in the bigger box and type "cloud9" in the smaller text box. **Finally, press _Add SSH Key_**
+
 > **The account has been finally set up, now for setting up your workspace!**
 ---
 ## Repository Setup
