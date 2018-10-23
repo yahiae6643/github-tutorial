@@ -26,7 +26,7 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 **Step One**: Go to `https://github.com/`. Here is the website: [_Github_](https://github.com/)  
 * You have found the website successfully if you reached a site that looks like this:
 
-[PICTURE HERE]
+![GITHUB_PAGE](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/github_screen.png)
 
 **Step Two**: Within the front page of github, you are presented with a white box that states for you to choose a *Username*, *Email (Can be either your **personal** email or **school** email)*, and a *Password (Must be greater than 7 and less than 15 characters for security reasons)*
 
