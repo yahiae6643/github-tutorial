@@ -5,15 +5,15 @@ _by Yahia Elhag_
 
 ---
 ## Git vs. GitHub
-[PICTURE HERE]
+![GIT](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/Git-Icon-1788C.png)
 
 **_Git_** is defined as the system which is primarily used to give the user control of his versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
 > You can refer to your previous changes easily if you have a problem with your current project or want to use previous code in your project in order to improve it.  
 > You can also remove these changes if you believe they are not needed in your history.  
   
-[PICTURE HERE]
+![GITHUB]
   
-Github is a website used to post your projects and their previous versions for everyone to see. Similar to Git, you can refer back to your projects for the sake of improvement, removal, or fixing errors with your current file. However, the main difference between the two is that it is also used to **easily collaborate with one or more users on one or multiple projects**.
+Github is a website used to post your projects and their previous versions for everyone to see. Since it is based on _Git_ (**Git** in **Git**hub), you can refer back to your projects for the sake of improvement, removal, or fixing errors with your current file. However, the main difference between the two is that it is also used to **easily collaborate with one or more users on one or multiple projects**.
 > Users go through a very short and easy process in order to collaborate with others, which would be taught later in the tutorial!  
 > Collaborations are usually for adding suggested features or fixing bugs on one project, but they can be used for so much more!
 
@@ -32,7 +32,7 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 
 * Soon after creating your account, it will be unverified as a user (you would need to access your email to verify it) and you will be given two plans, **Free** and **Developer**. 
 
-[PICTURE HERE]
+![Plans](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/plans.png)
 
 > Choosing the free plan has no consequences, so don't worry if you chose it  
     
@@ -101,6 +101,7 @@ git push -u origin master
 NOTE: Commands start with `git` since they are apart of git's system   
 NOTE #2: Working directory means the directory you are currently located in
 
+![Flowchart](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/flowchart.png)
 | Git Commands  | Format | Use | Pointers |
 | --- | --- | --- | --- |
 |  init | `git init`  | `git init: To initalize (or to start) git within your new or recently modified directory`| Without initalizing git in your directory, you won't have the ability to execute other git commands in order to save files within your local repository.|
