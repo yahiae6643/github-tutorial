@@ -30,8 +30,6 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 
 **Step Two**: Within the front page of github, you are presented with a white box that states for you to choose a *Username*, *Email (Can be either your **personal** email or **school** email)*, and a *Password (Must be greater than 7 and less than 15 characters for security reasons)*
 
-[PICTURE HERE]
-
 * Soon after creating your account, it will be unverified as a user (you would need to access your email to verify it) and you will be given two plans, **Free** and **Developer**. 
 
 [PICTURE HERE]
@@ -46,15 +44,16 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 ###### The process of connecting your github account to cloud9 is easier, so lets start!
 
 **Step One**: Access the main page of cloud9 and log in with your github account **(If you don't have a c9 account, make one)**.
+* There is a possibly that creating a c9 account can cost money, **so the steps below might be similar to other online websites you use such as _Codiad_ or _Shiftedit_**
 
 **Step Two**: Press the _gear icon_ on the top right of the screen for a list of settings and press **_SSH Keys_**
 >SSH Keys (**S**ecure **S**ocket S**h**ell) is a network protocol that gives you access to a remote area, such as _Github_, from another area without typing your password and username. Without a SSH Key being linked between your github and cloud9, you won't have the ability to send and take projects from your c9 to github without typing your password and username, which is really inefficient  
 
 [PICTURE HERE]
 
-* Copy the private git SSH repository
+**Step Three**: Copy the private git SSH repository
 
-* Go to Github and access your settings on top right corner
+**Step Four**: Go to Github and access your settings on top right corner
     * Press _SSH and GPG keys_ and create a new SSH key, which brings you to two text boxes. Paste your SSH in the bigger box and type "cloud9" in the smaller text box. **Finally, press _Add SSH Key_**
 > **The account has been finally set up, now for setting up your workspace!**
 ---
@@ -63,7 +62,7 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 
 ###### To start...
 **NOTE**: A repository is a folder where you save both your files and file changes permanantly as previous versions of the project (until further modifications)  
-**NOTE #2**: In c9, you are typing and pasting commands inside a blue tab called the `bash`**,** or terminal to be specific  
+**NOTE #2**: In c9, you are typing and pasting commands inside a blue tab (May differ in color depending on workspace's color theme) called the `bash`**,** or terminal to be specific  
 
 [PICTURE]
 
@@ -111,7 +110,7 @@ NOTE #2: Working directory means the directory you are currently located in
 |  diff | `git diff`  | `Displays the difference between your current file and the latest (HEAD) version of your file within the repository`| **N/A**|
 |  status | `git status`  | `Shows which files are staged, not staged, and are not tracked by git `| "not tracked" means the files' changes aren't being monitored by git| 
 | commit | `git commit -m *message*` | `Saves files from the staging area permanently into your repository as a previous version of the project. It "commits" a file into the local repository`| The most recent saved changes in your repository (or most recent commit) is called the `HEAD` commit. Also, the `-m` within the command assigns any text after it as a message for the new commit, which can help you distinguish and pinpoint your commits  |
-|  log | `git log`  | `Shows all previous versions. Basically, the commits are located in the repository of your project`| These commits include messages you made, the time it was made, the name of who made it, and a 40 character code called a `SHA`. The `SHA` can be used to distinguish commits between each other, but can be also used in removing a commit or reverting back to a commit you desire|
+|  log | `git log`  | `Shows all previous versions. Basically, the commits are located in the repository of your project`| These commits include messages you made, the time it was made, the name of who made it, and a 40 character code called a `SHA`. The `SHA` can be used to distinguish commits between each other, but can be also used in removing a commit or reverting back to a commit you desire. An example of a `SHA` is `5d1da5b98cecf7ec68e91bb923aa76d45f8e7807`|
 | remote | `git remote add origin *URL*`  | `Establishes the connection between your local repository and your remote repository in Github`| `remote` refers to setting up the connection b/w your local repository and the repository within github (the remote repository). `add` refers to your remote repository and its commits. `origin` is a nickname for your remote repository. `url` means the url of your remote repository, the location of the remote repository (SHOULD BE SSH LINK) |
 | push -u | `git push -u origin master` | `Transfers your local commits to the remote repository`| `push` means sending your commits from your local repository into your remote repository. `-u` means upstream. This will make the terminal remember to always send the local commits to a certain branch in your remote repository. `origin` refers back to the nickname of the remote repository. `master` refers to the branch in the remote repository that should contain your local commits|
 |  push | `git push`  | `Just like "git push -u origin master," the command sends your local commits from your local repository to your remote repository in github. HOWEVER, it now has the knowledge on which branch in your remote repository to push the commits to`| This command is used soon after using `git push -u origin master`|  
