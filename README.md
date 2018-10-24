@@ -1,5 +1,3 @@
-<!-- ADD CLOUD9 LINK -->
-
 # GitHub Tutorial   
 _by Yahia Elhag_
 
@@ -10,8 +8,9 @@ _by Yahia Elhag_
 **_Git_** is defined as the system which is primarily used to give the user control of his versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
 > You can refer to your previous changes easily if you have a problem with your current project or want to use previous code in your project in order to improve it.  
 > You can also remove these changes if you believe they are not needed in your history.  
-  
+
 ![GITHUB](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/GitHub-Mark.png)
+
 ###### `Image source: https://github.com/logos` 
   
 Github is a website used to post your projects and their previous versions for everyone to see. Since it is based on _Git_ (**Git** in **Git**hub), you can refer back to your projects for the sake of improvement, removal, or fixing errors with your current file. However, the main difference between the two is that it is also used to **easily collaborate with one or more users on one or multiple projects**.
@@ -66,7 +65,7 @@ NOTE: Cloud9 link is [c9.io](c9.io)
 **NOTE**: A repository is a folder where you save both your files and file changes permanantly as previous versions of the project (until further modifications)  
 **NOTE #2**: In c9, you are typing and pasting commands inside a blue tab (May differ in color depending on workspace's color theme) called the `bash`**,** or terminal to be specific  
 
-[PICTURE]
+![bash](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/bash.png)
 
 1. Within the front page of github, press the button "New repository"
 2. The page you are taken to will ask for a title for your new repository (_description optional_). Type in your prefered title and press "Create repository"
