@@ -130,7 +130,8 @@ NOTE #2: Working directory means the directory you are currently located in
 |`rm -rf`|`rm -rf *file_name or directory_name*`| `Removes a directory or file with force until the container and the content inside is fully deleted` |
 |`mv (VERSION ONE)`|`mv *file_name or directory_name* *new file_name or new directory_name`| `Renames or Assigns a directory or file a new name of your choice` |
 |`mv (VERSION TWO)`|`mv *file_name or directory_name* *EXISTING directory_name`| `Moves a directory or file into a existing directory (A folder that is in located within your work directory or parent directory (The folder that contains all other folders. THE PARENT IS NEVER ~)` |
-|`touch`|`touch *file_name.extension*`| `Creates a new file with a name and extension (e.g: .txt, .png) of your choice. Extensions are optional. ` |
+|`touch`|`touch *file_name.extension*`| `Creates a new file with a name and extension (e.g: .txt, .png) of your choice. Extensions are optional.`|
+
 **EXTRA TIPS TO FOLLOW:**  
 * Never use `git init` in the root directory (`EXAMPLE_USERNAME:~ `)**.** This would cause many problems if you continue your workflow
     * To fix this problem, type in `rm -rf .git` within the root directory. This will remove the source folder that helps initalize _Git_ in the directory, which will uninitalize the directory from _Git_
