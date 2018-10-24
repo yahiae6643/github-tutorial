@@ -102,8 +102,8 @@ git push -u origin master
 NOTE: Commands start with `git` since they are apart of git's system   
 NOTE #2: Working directory means the directory you are currently located in
 
-![Flowchart](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/flowchart.png)
-`Image source: https://www.codecademy.com/ ("Learning Git")`
+![Flowchart](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/workflow.png)
+`Image source: "GIT Workflow - Georgia Tech - Software Development Process" by Youtuber "Udacity"`
 
 | Git Commands  | Format | Use | Pointers |
 | --- | --- | --- | --- |
