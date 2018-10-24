@@ -104,6 +104,7 @@ NOTE: Commands start with `git` since they are apart of git's system
 NOTE #2: Working directory means the directory you are currently located in
 
 ![Flowchart](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/flowchart.png)
+
 | Git Commands  | Format | Use | Pointers |
 | --- | --- | --- | --- |
 |  init | `git init`  | `git init: To initalize (or to start) git within your new or recently modified directory`| Without initalizing git in your directory, you won't have the ability to execute other git commands in order to save files within your local repository.|
@@ -117,7 +118,7 @@ NOTE #2: Working directory means the directory you are currently located in
 | remote | `git remote add origin *URL*`  | `Establishes the connection between your local repository and your remote repository in Github`| `remote` refers to setting up the connection b/w your local repository and the repository within github (the remote repository). `add` refers to your remote repository and its commits. `origin` is a nickname for your remote repository. `url` means the url of your remote repository, the location of the remote repository (SHOULD BE SSH LINK) |
 | push -u | `git push -u origin master` | `Transfers your local commits to the remote repository`| `push` means sending your commits from your local repository into your remote repository. `-u` means upstream. This will make the terminal remember to always send the local commits to a certain branch in your remote repository. `origin` refers back to the nickname of the remote repository. `master` refers to the branch in the remote repository that should contain your local commits|
 |  push | `git push`  | `Just like "git push -u origin master," the command sends your local commits from your local repository to your remote repository in github. HOWEVER, it now has the knowledge on which branch in your remote repository to push the commits to`| This command is used soon after using `git push -u origin master`|  
-| remote -v | `git remote -v`| `Displays the remote repository that you are send and taking commits  (The remote repository your local repository is connected to). It always shows the SSH link of your repository in github` | `-v` sends for verbose, which means to tell everything about a certain subject.  |
+| remote -v | `git remote -v`| `Displays the remote repository that you are send and taking commits  (The remote repository your local repository is connected to). It always shows the SSH link of your repository in github` | `-v` sends for verbose, which means to tell everything about a certain subject.|
 | clone | `git clone *SSH Link*` | `Creates a copy of a repository on github inside your working directory` | The SSH link of the repository is always found when clicking the *Clone or download* and pressing _Use SSH_ on the top right of the box |
 
 | Essential Command Line Add-Ons | Format | Use | 
