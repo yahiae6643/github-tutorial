@@ -5,7 +5,7 @@ _by Yahia Elhag_
 ## Git vs. GitHub
 ![GIT](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/Git-Icon-1788C.png)
 ###### `Image source: https://git-scm.com/downloads/logos` 
-**_Git_** is defined as the system which is primarily used to give the user control of his versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
+**_Git_** is defined as the system which is primarily used to give the user control of his files' versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
 > You can refer to your previous changes easily if you have a problem with your current project or want to use previous code in your project in order to improve it.  
 > You can also remove these changes if you believe they are not needed in your history.  
 
@@ -14,7 +14,7 @@ _by Yahia Elhag_
 ###### `Image source: https://github.com/logos` 
   
 Github is a website used to post your projects and their previous versions for everyone to see. Since it is based on _Git_ (**Git** in **Git**hub), you can refer back to your projects for the sake of improvement, removal, or fixing errors with your current file. However, the main difference between the two is that it is also used to **easily collaborate with one or more users on one or multiple projects**.
-> Users go through a very short and easy process in order to collaborate with others, which would be taught later in the tutorial!  
+> Users go through a very short and easy process in order to become a full github user, which would be in this tutorial!  
 > Collaborations are usually for adding suggested features or fixing bugs on one project, but they can be used for so much more!
 
 ---
@@ -135,7 +135,7 @@ NOTE #2: Working directory means the directory you are currently located in
 **EXTRA TIPS TO FOLLOW:**  
 * Never use `git init` in the root directory (`EXAMPLE_USERNAME:~ `)**.** This would cause many problems if you continue your workflow
     * To fix this problem, type in `rm -rf .git` within the root directory. This will remove the source folder that helps initalize _Git_ in the directory, which will uninitalize the directory from _Git_
-* Use `git status` oftenly, since the command can be used freely without problem and it can help you choose which file changes are necessary to prepare for commiting
+* Use `git status` oftenly, since the command can be used freely without problem and it can help you choose which file changes are necessary to prepare for committing
 * Use `git remote -v` oftenly to check if your local repository is connected to the **correct** remote repository (The remote repository you want to connect to)
 
 
@@ -150,3 +150,4 @@ NOTE #2: Working directory means the directory you are currently located in
 | reset soft | `git reset --soft HEAD~1` | `Reverts the HEAD commit by one previous commit. However, your files' content and prepared file changes within the staging area stays the SAME as before. It destroys the HEAD commit but doesn’t destroy its content and staged files.` | e.g: Your current `HEAD` commit that says "Dogs are better than cats." Your staging area is empty and your file says the same thing as the head commit. However, you decide to change the file to "Cats are better than dogs" and add it to the staging area. You later commit the change and that will become the HEAD commit. However, you want to change back to the previous commit so you use `git reset --soft HEAD~1`**.** Your previous commit is now the `HEAD` commit but the content still says "Cats are better than dogs." And, the file changes "Cats are better than dogs" are  staged within the staging area, just like the commit we destroyed. |
 | reset hard | `git reset --hard HEAD~1` | `The HEAD commit is reverted back by one previous commit but the staging area's prepared files from before and as well as the files' content CHANGES back to when it looked like previous commit that you reverted to. Destroys the HEAD commit, its content, and its staged files (The staging area will be empty)` | You recently made a new file and added "10/10" into the file's text editor. You then stage the change in the staging area and commit it. However, you decide to change "10/10" to "5/10" in the file and do the process of adding and committing again for your recent change. You want your file, staging area, and commit to be back when they had "10/10" so you use `git reset --hard HEAD~1`**.** The `HEAD` commit and its file content and prepared files in the staging area are deleted, bring you back to the previous `HEAD` commit. You now have "10/10". |
 | revert | `git revert *SHA*` | `Reverts your HEAD commit to a previous commit of your choice, which also changes the file content to what it looked like when it was apart of the commit you reverted to` | E.g: I decided to make a file and added content within it, which says "Ice cream is best on a summer day." Then, I added it to my staging area and commited it with a SHA of `7a85f4764bbd6daf1c3545efbbf0f279a6dc0beb`**.** You decided to change the content to "Watching TV is best on a summer day" and continued on the same workflow, giving you a commit with a SHA of `3c363836cf4e16666669a25da280a1865c2d2874`**.** However, you soon realized that your statement was false so you tried to revert back to your old statement. `git revert 7a85f4764bbd6daf1c3545efbbf0f279a6dc0beb` brought you back to your previous HEAD commit, so you now have your old statement back.    |
+
