@@ -5,7 +5,7 @@ _by Yahia Elhag_
 ## Git vs. GitHub
 ![GIT](https://raw.githubusercontent.com/yahiae6643/github-tutorial/master/Git-Icon-1788C.png)
 ###### `Image source: https://git-scm.com/downloads/logos` 
-**_Git_** is defined as the system which is primarily used to give the user control of his files' versions _(Version Control)_. Specifically, git gives you the ability to **save changes of your file as previous versions over time**.  
+**_Git_** is defined as the system which is primarily used to give the user control of his files' versions _(Version Control)_. Specifically, git gives you the ability to **save changes made to your file as previous versions over time**.  
 > You can refer to your previous changes easily if you have a problem with your current project or want to use previous code in your project in order to improve it.  
 > You can also remove these changes if you believe they are not needed in your history.  
 
